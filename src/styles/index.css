@@ -1,0 +1,7 @@
+@import "/src/styles/demos.css";
+@import "/src/styles/nav.css";
+
+@import "pages/Bio.css";
+@import "pages/Contact.css";
+@import "pages/Home.css";
+@import "pages/Rates.css";
