@@ -7,6 +7,7 @@ import {
   Link,
   Redirect,
 } from "react-router-dom";
+import "./styles/index.css";
 
 import Home from "./pages/Home";
 import Bio from "./pages/Bio";
@@ -26,19 +27,19 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <div>
+          <div className="top-nav">
             <ul>
               <li>
-                <Link to="/home">Home</Link>
+                <Link to="/home" className="nav-text nav-right">Home</Link>
               </li>
               <li>
-                <Link to="/bio">Bio</Link>
+                <Link to="/bio" className="nav-text nav-right">Bio</Link>
               </li>
               <li>
-                <Link to="/rates">Rates</Link>
+                <Link to="/rates" className="nav-text nav-right">Rates</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" className="nav-text">Contact</Link>
               </li>
             </ul>
           </div>

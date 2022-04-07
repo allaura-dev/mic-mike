@@ -1,0 +1,29 @@
+
+ul {
+    display: inline;
+    color: orange;
+    padding: 20px;
+}
+    ul li{
+        display: inline;
+    }
+        .nav-text {
+            color: #ffff;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: 600;
+
+        }
+            .nav-right{
+                padding-right: 20%;
+            }
+            .nav-text:hover {
+                color: #044DAE;
+            }
+
+.top-nav {
+    text-align: center;
+    background-color: #37B5FE;
+    height: 50px;
+    padding-top: 10px;
+}
