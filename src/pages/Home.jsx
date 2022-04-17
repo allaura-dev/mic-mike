@@ -1,6 +1,7 @@
 import React from "react";
 import Socials from "../components/Socials";
 import Logos from "../components/Logos"
+import Demos from "../components/Demos"
 
 function Home(){
     return(
@@ -9,22 +10,10 @@ function Home(){
                 <Logos />
             </div>
             <div className="right-div">
-                <div>
+                <div className="title-div">
                     <h1 className="titles">Demos</h1>
                 </div>
-                <div>
-                    <ul>
-                        <li>
-                        <button className="demo-btns">Audiobook</button>
-                        </li>
-                        <li>
-                            <button className="demo-btns">Narration</button>
-                        </li>
-                        <li>
-                            <button className="demo-btns">YouTube</button>
-                        </li>
-                    </ul>
-                </div>
+                <Demos />
                 <h1 className="titles title-lower">Professional. Percise. Persuasive.</h1>
             </div>
             <Socials />

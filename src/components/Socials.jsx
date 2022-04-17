@@ -2,7 +2,7 @@
 import React from "react";
 import Facebook from './SocialIcons/facebook.png';
 import Twitter from './SocialIcons/twitter.png';
-import Instagram from './SocialIcons/instagram.png';
+import LinkdIn from './SocialIcons/linkdin.png';
 import YouTube from './SocialIcons/youtube.png';
 
 
@@ -16,8 +16,8 @@ function Socials() {
             <a href="https://twitter.com/MikeWithAMicVO" alt="Twitter">
                 <img src={ Twitter } alt="Main Logo" className="socialIcons"/>
             </a>
-            <a href="https://www.instagram.com/mikewithamicvo/" alt="Instagram">
-                <img src={ Instagram } alt="Main Logo" className="socialIcons" />
+            <a href="https://www.linkedin.com/in/mike-with-a-mic-ba2837236/" alt="LinkdIn">
+                <img src={ LinkdIn } alt="Main Logo" className="socialIcons" />
             </a>
             <a href="https://www.youtube.com/channel/UCDur0oODGcoCb3OWJJNYGig" alt="YouTube">
                 <img src={ YouTube } alt="Main Logo" className="socialIcons" />

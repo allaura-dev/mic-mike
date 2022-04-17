@@ -1,6 +1,7 @@
 import React from "react";
 import Socials from "../components/Socials";
-import Logos from "../components/Logos"
+import Logos from "../components/Logos";
+import Emails from "../components/Emails"
 
 function Contact(){
     return(
@@ -13,7 +14,7 @@ function Contact(){
                     <h1 className="titles">Contact</h1>
                 </div>
                 <div>
-                    <h1>Picture</h1>
+                    < Emails />
                     <h1 className="titles title-lower-light">booking@mikewithamic.com</h1>
                     <h1 className="titles title-lower">Professional. Percise. Persuasive.</h1>
                 </div>

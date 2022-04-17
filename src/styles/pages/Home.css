@@ -3,38 +3,32 @@
     width: 50%;
     float: right;
     text-align: center;
+    height: 500px;
+    display: inline-block;
 }
 
 .left-div{
     width: 50%;
     float: left;
     text-align: center;
+    height: 500px;
+    display: inline-block;
 }
-
-.demo-btns {
-    color: #ffff;
-    background-color: #044DAE;
-    font-size: 25px;
-    padding: 10px;
-    border: 0;
-    border-radius: 10px;
-    margin: 10px;
-    width: 200px;
-}
-    .demo-btns:hover {
-        background-color: #37B5FE;
-    }
 
 .titles{
     color: #044DAE;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin-left: 75px;
+    width: 75%;
+    text-align: center;
+    display: inline-block;
 }
     .title-lower{
         font-size: 23px;
-        text-align: center;
         padding-left: 15px;
+        margin-left: 75px;
     }
     .title-lower-light{
         font-size: 23px;
@@ -64,5 +58,14 @@
     height: 450px;
     width: 450px;
 }
-       
+
+.email-logo {
+    height: 350px;
+    width: 350px;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+}
        
